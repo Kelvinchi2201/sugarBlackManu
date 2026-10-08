@@ -1,6 +1,6 @@
 # Sugar Black - Menú Virtual
 
-Un catálogo frontend de postres rápido y optimizado, diseñado con temática oscura y toques dorados[cite: 18].
+Un catálogo frontend de postres rápido y optimizado, diseñado con temática oscura y toques dorados.
 
 🔗 **Sitio en vivo:** [https://sugar-black-manu.vercel.app/](https://sugar-black-manu.vercel.app/)
 
@@ -9,9 +9,9 @@ Un catálogo frontend de postres rápido y optimizado, diseñado con temática o
 *   **Estilos:** Tailwind CSS
 
 ## 📂 Estructura Principal
-*   `src/pages/index.astro`: Renderiza la cuadrícula principal y el listado completo de los postres[cite: 16].
-*   `src/components/DessertItem.astro`: Componente de la tarjeta individual con estilos, control de dimensiones de imagen y efectos hover[cite: 17].
-*   `src/layouts/Layout.astro`: Plantilla HTML base que gestiona los metadatos de la página y el fondo global del sitio[cite: 18].
+*   `src/pages/index.astro`: Renderiza la cuadrícula principal y el listado completo de los postres.
+*   `src/components/DessertItem.astro`: Componente de la tarjeta individual con estilos, control de dimensiones de imagen y efectos hover.
+*   `src/layouts/Layout.astro`: Plantilla HTML base que gestiona los metadatos de la página y el fondo global del sitio.
 
 ## 💻 Desarrollo Local
 
