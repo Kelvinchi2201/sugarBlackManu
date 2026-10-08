@@ -1,46 +1,28 @@
-# Astro Starter Kit: Basics
+# Sugar Black - Menú Virtual
 
-```sh
-npm create astro@latest -- --template basics
-```
+Un catálogo frontend de postres rápido y optimizado, diseñado con temática oscura y toques dorados[cite: 18].
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+🔗 **Sitio en vivo:** [https://sugar-black-manu.vercel.app/](https://sugar-black-manu.vercel.app/)
 
-## 🚀 Project Structure
+## 🚀 Tecnologías
+*   **Framework:** Astro
+*   **Estilos:** Tailwind CSS
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📂 Estructura Principal
+*   `src/pages/index.astro`: Renderiza la cuadrícula principal y el listado completo de los postres[cite: 16].
+*   `src/components/DessertItem.astro`: Componente de la tarjeta individual con estilos, control de dimensiones de imagen y efectos hover[cite: 17].
+*   `src/layouts/Layout.astro`: Plantilla HTML base que gestiona los metadatos de la página y el fondo global del sitio[cite: 18].
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## 💻 Desarrollo Local
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Ejecuta los siguientes comandos en tu terminal para trabajar en el proyecto:
 
-## 🧞 Commands
+```bash
+# Instalar todas las dependencias necesarias
+npm install
 
-All commands are run from the root of the project, from a terminal:
+# Iniciar el servidor de desarrollo (por defecto en http://localhost:4321)
+npm run dev
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+# Generar el proyecto para producción (si no usas el auto-deploy de Vercel)
+npm run build
